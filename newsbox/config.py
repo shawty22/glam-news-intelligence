@@ -1,25 +1,30 @@
 FEEDS = [
-    # World News
-    {"name": "Reuters",        "url": "https://feeds.reuters.com/reuters/topNews",           "topics": ["world"]},
-    {"name": "BBC World",      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",          "topics": ["world"]},
-    {"name": "AP News",        "url": "https://feeds.apnews.com/rss/apf-topnews",            "topics": ["world"]},
-    # Tech / AI
-    {"name": "Ars Technica",   "url": "http://feeds.arstechnica.com/arstechnica/index",      "topics": ["tech", "ai"]},
-    {"name": "The Verge",      "url": "https://www.theverge.com/rss/index.xml",              "topics": ["tech"]},
-    {"name": "MIT Tech Review","url": "https://www.technologyreview.com/feed/",              "topics": ["ai", "tech"]},
-    # Finance / Markets
-    {"name": "FT",             "url": "https://www.ft.com/rss/home/uk",                      "topics": ["finance", "markets"]},
-    # Geopolitics
-    {"name": "Foreign Policy", "url": "https://foreignpolicy.com/feed/",                    "topics": ["geopolitics"]},
-    {"name": "The Economist",  "url": "https://www.economist.com/international/rss.xml",    "topics": ["world", "geopolitics"]},
+    # Amazon / Illegal Mining / Deforestation
+    {"name": "Mongabay",          "url": "https://news.mongabay.com/feed/",                          "topics": ["amazon", "mining", "deforestation"]},
+    {"name": "InfoAmazonia",      "url": "https://infoamazonia.org/en/feed/",                        "topics": ["amazon", "mining"]},
+    {"name": "Amazon Watch",      "url": "https://amazonwatch.org/news/feed",                        "topics": ["amazon", "indigenous", "mining"]},
+    {"name": "Global Witness",    "url": "https://www.globalwitness.org/en/blog/feed/",              "topics": ["mining", "corruption", "indigenous"]},
+    {"name": "Reporter Brasil",   "url": "https://reporterbrasil.org.br/feed/",                     "topics": ["amazon", "mining", "labour"]},
+    {"name": "FERN",              "url": "https://www.fern.org/news-resources/news/feed/",           "topics": ["deforestation", "forests", "policy"]},
+    {"name": "Climate Home News", "url": "https://www.climatechangenews.com/feed/",                  "topics": ["climate", "policy", "amazon"]},
+    {"name": "The Guardian Env",  "url": "https://www.theguardian.com/environment/rss",              "topics": ["environment", "amazon", "climate"]},
+    {"name": "Reuters Environment","url": "https://feeds.reuters.com/reuters/environment",           "topics": ["environment", "mining"]},
+    # Indigenous Rights
+    {"name": "Survival Intl",     "url": "https://www.survivalinternational.org/news/feed",          "topics": ["indigenous", "amazon"]},
+    # Supply Chain / Corporate
+    {"name": "Global Trade Review","url": "https://www.gtreview.com/feed/",                         "topics": ["supply-chain", "mining", "trade"]},
+    # Brazilian News (English)
+    {"name": "Brazil Reports",    "url": "https://brazilreports.com/feed/",                         "topics": ["brazil", "amazon", "politics"]},
+    {"name": "The Brazilian Report","url": "https://brazilian.report/feed/",                        "topics": ["brazil", "amazon", "politics"]},
 ]
 
-# Topics for overnight briefings — edit freely
+# Topics for overnight briefings
 BRIEFING_TOPICS = [
-    "China",
-    "artificial intelligence",
-    "financial markets",
-    "geopolitics",
+    "illegal gold mining Amazon",
+    "garimpo deforestation",
+    "indigenous land rights Brazil",
+    "mercury contamination Amazon",
+    "supply chain gold laundering",
 ]
 
 OLLAMA_MODEL   = "llama3.2"
