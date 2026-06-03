@@ -1,0 +1,4 @@
+__pycache__/
+newsbox_db/
+venv/
+*.pyc

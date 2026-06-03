@@ -1,0 +1,6 @@
+crawl4ai
+feedparser
+chromadb
+ollama
+apscheduler
+sentence-transformers
